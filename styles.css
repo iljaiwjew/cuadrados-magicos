@@ -1,0 +1,14 @@
+html, body {
+  margin: 0px;
+}
+
+.squares-container {
+  height: 600px;
+  width: 600px;
+  position: 'relative',
+}
+
+.square {
+  position: absolute;
+  transition: transform 7s, background-color 0.2s;
+}
